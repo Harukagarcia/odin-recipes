@@ -11,7 +11,7 @@
 body {
     color: white;
     background-color: rgb(56, 171, 104);
-    font-size: 21px;
+    font-size: 16px;
     text-align: left;
     font-family: norse;
 }
@@ -41,8 +41,8 @@ a {
 
 @font-face {
     font-family: 'norse';
-    src: url('/Users/harukachan/Desktop/repos/odin-recipes/resources/webfontkit-20221005-121939/norse-webfont.woff') format('woff2'),
-         url('/Users/harukachan/Desktop/repos/odin-recipes/resources/webfontkit-20221005-121939/norse-webfont.woff2') format('woff');
+    src: url('resources/webfontkit-20221005-121939/norse-webfont.woff') format('woff2'),
+         url('resources/webfontkit-20221005-121939/norse-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
 
