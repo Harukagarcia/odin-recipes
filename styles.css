@@ -1,0 +1,45 @@
+/* styles.css*/
+.title {
+    font-size: 60px;
+    text-align: center;
+    color:rgb(133, 86, 4);
+}
+
+div {
+    color: white;
+    background-color: rgb(255, 162, 0);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: norse;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 86, 4);
+    font-weight: 700;
+    background-color:whitesmoke;
+}
+
+.foodtitle {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+@font-face {
+    font-family: 'norse';
+    src: url('resources/webfontkit-20221005-121939/norse-webfont.woff') format('woff2'),
+         url('resources/webfontkit-20221005-121939/norse-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
