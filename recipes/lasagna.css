@@ -1,10 +1,10 @@
 /* lasagna.css*/
-title {
+.maintitle {
     font-family: norse;
     font-size: 60px;
     text-align: center;
 }
-h1 class {
+.title {
     font-size: 40px;
     text-align: center;
 }
@@ -12,7 +12,6 @@ body {
     color: white;
     background-color: rgb(56, 171, 104);
     font-size: 21px;
-    font-weight: 700;
     text-align: left;
     font-family: norse;
 }
@@ -25,6 +24,19 @@ a {
     padding: 5px;
     border-radius: 1px;
     text-align: center;
+}
+
+.content {
+    font-family: Optima; sans-serif;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 @font-face {
