@@ -1,39 +1,150 @@
 /* styles.css*/
-.title {
-    font-size: 60px;
-    text-align: center;
-    color:rgb(133, 86, 4);
+html {
+    min-width: 0;
+    background: linear-gradient(180deg,  #805918, #B6B69F);
 }
 
 div {
-    color: white;
-    background-color: rgb(255, 162, 0);
+    color: #FFF;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
     font-family: norse;
 }
 
+.menu-container {
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 6px dashed #805918;
+}
+
+.menu {
+    display: flex;
+    justify-content: left;
+}
+  
+.menu-title {
+    display: inline-flex;
+    justify-content: right;
+    font-size: 80px;
+    padding: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+  
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 150px;
+    height: 200px;
+}
+  
+.project {
+    font-size: 16px;
+    justify-content: flex-end;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+.recipes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: left;
+}
+
+img {
+    width:100%;
+    max-width:350px;
+    border-radius: 25px;
+}
+
+.recipe-image {
+    border: 5px groove #fff;
+    height: 300px;
+    flex: 1;
+    border-radius: 25px;
+}
+
+.recipe-names {
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.recipe-item {
+    height: 50px;
+    flex: 1;
+    width:100%;
+    max-width:350px;
+}
+
 a:link,
 a:visited,
 a:active {
     text-decoration: none;
-    color: white;
+    color: #FFF;
 }
 
 a:hover {
-    color: rgb(133, 86, 4);
+    color: #B6B69F;
     font-weight: 700;
-    background-color:whitesmoke;
+    background-color:#FFF;
 }
 
-.foodtitle {
-    text-decoration: none;
-    color: white;
-
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.footer-item {
+    font-size: 24px;
+    justify-content:space-evenly;
+    border: 5px groove #fff;
+    background-color: #B6B69F;
+    height: 75px;
+    flex: 1;
+    text-align: center;
+}
+  
+.footer-one,
+.footer-three {
+    background-color: #b6a689;
+    flex: initial;
+    width: 300px;
 }
 
+#center {
+    text-align: center;
+}
 
+.footer-one {
+    border-radius: 100% 0 0 100% / 50%; 
+}
+
+.footer-two {
+    align-self: flex-end;
+}
+
+.footer-three {
+    border-radius: 0 100% 100% 0 / 50%;
+}
+
+.hglogo {
+    max-height: 70px;
+    max-width: 70px;
+    margin: 2px;
+    float: right;
+}
+
+.odinlogo {
+    max-height: 75px;
+    max-width: 125px;
+    margin: 5px;
+    float: left;
+}
 
 @font-face {
     font-family: 'norse';
@@ -41,5 +152,4 @@ a:hover {
          url('resources/webfontkit-20221005-121939/norse-webfont.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
